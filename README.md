@@ -32,9 +32,10 @@
 </li>
 </ul>
 
-<h3>Примеры результатов работы программы</h3>
+Примеры результатов работы программы<br>
+Выдача информации на экран
 ![Verbose mode](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/verbose_scr.png)
-
+Результат записанный в файл csv
 ![csv mode](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/csv_scr.png)
-
+Результат записанный в файл Базы Данных SQLite
 ![BD mode](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/BD_scr.png)
