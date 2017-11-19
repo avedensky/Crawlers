@@ -1,4 +1,4 @@
-# Crawlers
+# hh_crawler
 <h3>
 Демонстрационная программа парсинга сайтов, на примере сайта 
 <a href="https://hh.ru/">Head Hunter</a>
