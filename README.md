@@ -7,7 +7,7 @@
 </h2>
 
 <br>
-![Main Window](https://github.com/avedensky/crawlers/raw/master/img/help_scr.png)
+![Main Window](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/help_scr.png)
 
 <br>
 <a href="https://github.com/avedensky/crawlers/hh.ru/blob/master/hh_crawler.py">Посмотреть код</a>
