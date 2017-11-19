@@ -5,7 +5,7 @@
 Демонстрационная программа парсинга сайтов, на примере сайта 
 <a href="https://hh.ru/">Head Hunter</a>
 </h2>
-
+![Main Window](https://github.com/avedensky/zzFotoViewer/raw/master/tmp/zzFotoViewer_main_window2_rs.png)
 <br>
 ![Main Window](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/help_scr.png)
 
