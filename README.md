@@ -1,16 +1,13 @@
 # Crawlers
-<h1>Утилиты парсинга сайтов</h1>
-
-<h2>
+<h3>
 Демонстрационная программа парсинга сайтов, на примере сайта 
 <a href="https://hh.ru/">Head Hunter</a>
-</h2>
-![Main Window](https://github.com/avedensky/zzFotoViewer/raw/master/tmp/zzFotoViewer_main_window2_rs.png)
-<br>
+</h3>
+
 ![Main Window](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/help_scr.png)
 
 <br>
-<a href="https://github.com/avedensky/crawlers/hh.ru/blob/master/hh_crawler.py">Посмотреть код</a>
+<a href="https://github.com/avedensky/crawlers/blob/master/hh.ru/hh_crawler.py">Посмотреть код</a>
 <br>
 
 <h3>Возможности программы:</h3>
@@ -36,11 +33,8 @@
 </ul>
 
 <h3>Примеры результатов работы программы</h3>
-<h4>Verbose mode</h4>
-![Verbose mode](https://github.com/avedensky/crawlers/raw/master/img/verbose_scr.png)
-<br>
-<h4>CSV mode</h4>
-![csv mode](https://github.com/avedensky/crawlers/raw/master/img/csv_scr.png)
-<br>
-<h4>Data Base mode</h4>
-![BD mode](https://github.com/avedensky/crawlers/raw/master/img/BD_scr.png)
+![Verbose mode](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/verbose_scr.png)
+
+![csv mode](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/csv_scr.png)
+
+![BD mode](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/BD_scr.png)
