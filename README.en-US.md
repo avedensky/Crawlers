@@ -1,66 +1,66 @@
 # hh_crawler
 <h3>
-Демонстрационная программа парсинга сайтов, на примере сайта 
+Parsing demonstration program, for site:
 <a href="https://hh.ru/">Head Hunter</a>
 </h3>
 
 ![Main Window](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/help_scr.png)
 
 <br>
-<a href="https://github.com/avedensky/crawlers/blob/master/hh.ru/hh_crawler.py">Посмотреть код</a>
+<a href="https://github.com/avedensky/crawlers/blob/master/hh.ru/hh_crawler.py">Code view</a>
 <br>
 
-<h3>Возможности программы:</h3>
+<h3>Capabilities</h3>
 <ul>
 <li>
-Сканирование информации о вакансиях
+Scan job vacancy information on site
 </li>
 <li>
-Выдача информации на экран (ключ -v)
+Show finded information (key -v)
 </li>
 <li>
-Запись информации в файл csv (ключ -csv)
+Record to file in csv format(key -csv)
 </li>
 <li>
-Запись информации в файл Базы Данных SQLite (ключ -sqlite)
+Record data to base SQLite (as file) (key -sqlite)
 </li>
 <li>
-Задать ограничение количества сканированных страниц (ключ -l)
+Set pages scan limit (key -l)
 </li>
 <li>
-Задать ограничение времени сканирования (ключ -t)
+Set timeout of scan (key -t)
 </li>
 </ul>
 
-<b>Примеры результатов работы программы:</b>
+<b>Example of result:</b>
 <br>
 <br>
-Информация на экран
+Show to screen
 ![Verbose mode](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/verbose_scr.png)
 <br>
-Результат записанный в файл csv
+Data to csv format
 ![csv mode](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/csv_scr.png)
 <br>
-Результат записанный в файл Базы Данных SQLite
+Data to data base SQLite
 ![BD mode](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/BD_scr.png)
 
 <br>
-<b>Примеры команд запуска программы:</b>
+<b>Example console comand:</b>
 <br>
 <br>
-python3 ./hh_crawler.py -s программист -l 1 -v
+python3 ./hh_crawler.py -s manager -l 1 -v
 <br>
-<i>Просмотреть вакансии с ключевым словом программист, ограничиться сканированием 1 страницы, результат на экран</i>
-<br>
-<br>
-
-python3 ./hh_crawler.py -s программист -csv s.csv -t 10
-<br>
-<i>Просмотреть вакансии с ключевым словом программист, ограничить время сканирования около 10 сек, результат в файл csv</i>
+<i>Scan job vacancy like as 'manager', scan limit one page, show to screen</i>
 <br>
 <br>
 
-python3 ./hh_crawler.py -s программист -sqlite s.sqlite
+python3 ./hh_crawler.py -s manager -csv s.csv -t 10
 <br>
-<i>Просмотреть вакансии с ключевым словом программист, результат в файл Базы Данных SQLite (s.sqlite)</i>
+<i>Scan job vacancy like as 'manager', time out scan at 10 scecond, store to file s.csv</i>
+<br>
+<br>
+
+python3 ./hh_crawler.py -s manager -sqlite s.sqlite
+<br>
+<i>Scan job vacancy like as 'manager', data to SQLite (s.sqlite)</i>
 <br>
