@@ -1,8 +1,9 @@
-# hh_crawler
+# ead Hunter and kinozal-tv crawler
 <h3>
 Демонстрационные программы парсинга сайтов:
 <a href="https://hh.ru/">Head Hunter</a>
-<a href="https://kinozal-tv.appspot.com">Торрент трекер</a>
+и
+<a href="https://kinozal-tv.appspot.com">kinozal-tv</a>
 </h3>
 
 <h2>O парсере - Head Hunter</h2>
