@@ -1,4 +1,4 @@
-# ead Hunter and kinozal-tv crawler
+# Head Hunter and kinozal-tv  - crawlers
 <h3>
 Демонстрационные программы парсинга сайтов:
 <a href="https://hh.ru/">Head Hunter</a>
