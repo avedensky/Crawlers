@@ -1,8 +1,11 @@
 # hh_crawler
 <h3>
-Демонстрационная программа парсинга сайтов, на примере сайта 
+Демонстрационные программы парсинга сайтов:
 <a href="https://hh.ru/">Head Hunter</a>
+<a href="https://kinozal-tv.appspot.com">Торрент трекер</a>
 </h3>
+
+<h2>O парсере - Head Hunter</h2>
 
 ![Main Window](https://github.com/avedensky/crawlers/raw/master/hh.ru/img/help_scr.png)
 
@@ -63,4 +66,10 @@ python3 ./hh_crawler.py -s программист -csv s.csv -t 10
 python3 ./hh_crawler.py -s программист -sqlite s.sqlite
 <br>
 <i>Просмотреть вакансии с ключевым словом программист, результат в файл Базы Данных SQLite (s.sqlite)</i>
+<br>
+
+
+<h2>O парсере - kinozal-tv</h2>
+<br>
+<a href="https://github.com/avedensky/crawlers/blob/master/kinozal-tv/">Посмотреть код</a>
 <br>
